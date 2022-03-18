@@ -42,16 +42,9 @@ python3 merge_worksheet.py
 ***It merges all xlsx (or xls) files of current folder and the outputted file in the same folder***
 
 ```shell
-python3 merge_worksheet.py sourse
+python3 merge_worksheet.py -s `source_dir` -o `output_dir` -n `my_file`
 ```
-***It merges all files of the `sourse` folder and the outputted file in the script folder***
-
-
-```shell
-python3 merge_worksheet.py sourse output
-```
-***It merges all files of the `sourse` folder and the outputted file in the `output` folder***
-
+***It merges all files of the `source_dir` folder and the outputted file in the `output_dir` folder with `my_file_.xlsx` file name***
 
 ### Contributing
 Feel free to make changes to the project files.
