@@ -13,7 +13,10 @@ You have to install on your local machine the listed softwares below:
 2. Install [python](https://www.python.org/) the Python interpreter for script.
 
 ***You will need to install pandas and xls2xlsx libraries of python***
-
+```shell
+pip install pandas
+pip install xls2xlsx
+```
 
 ### Get it
 First of all, clone the repository `xlsx-files-merge` into your local machine:
@@ -24,6 +27,12 @@ git clone https://github.com/FabioAnsaldi/xlsx-files-merge.git
 
 
 ### How to use it
+
+Have a look at help informations by running:
+
+```shell
+merge_worksheet.py [-h]
+```
 
 You can run script file via terminal or Windows prompt:
 
